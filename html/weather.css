@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.weather-bg {
+  background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?cs=srgb&dl=pexels-pixabay-209831.jpg&fm=jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-card {
+  background-color: transparent;
+  height: 600px;
+  width: 90%;
+  max-width: 550px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid black;
+}
+.f-btn {
+  position: relative;
+  top: 5px;
+  border-radius: 6px;
+  height: 30px;
+  width: 40px;
+  color: black;
+  font-size: 30px;
+}
+
+.main-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  color: white;
+  margin-bottom: 40px;
+  text-shadow: 6px 5px rgba(0, 0, 0, 0.304);
+}
+
+.input-el {
+  height: 40px;
+  width: 400px;
+  border-radius: 3px;
+}
+
+.weather-img {
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+.days-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.each-day {
+  border: 2px solid #000000;
+  padding: 2px;
+  border-radius: 5px;
+  min-width: 30%;
+  margin-right: 3px;
+  background-color: lightblue;
+  text-align: center;
+  height: 300px;
+}
+
+.searched-location {
+  border: 2px solid #000000;
+  background-color: lightgreen;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  top: -9px;
+}
+.location {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.view {
+  position: relative;
+  top: -5px;
+}
+i:hover {
+  color: blue;
+  transform: scale(1.2);
+}
